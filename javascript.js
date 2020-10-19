@@ -7,7 +7,7 @@ if (visitors === null) {
 visitors++;
 
 localStorage.setItem('on_load_counter', visitors);
-document.getElementById('counter').innerHTML = visitors.toString();
+document.getElementById('counter').innerHTML = visitors;
 
 // Buy Now button
 let buyNowButton = document.querySelector('#buy-button');
