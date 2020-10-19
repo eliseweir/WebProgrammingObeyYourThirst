@@ -1,0 +1,345 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 25;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
+
+nav {
+    background-color: #009639;
+    color: white;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+}
+
+nav figure img {
+    width: 50px;
+}
+
+#path {
+    padding: 0.25rem;
+    display: flex;
+    width: 45%;
+    justify-content: space-around;
+}
+
+#media {
+    display: flex;
+    margin-left: auto;
+    padding: 0 1rem;
+}
+
+nav img {
+    width: 15px;
+    justify-content: right;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding: 0.75rem 0.5rem;
+}
+
+#hero {
+    background-color: #009639;
+}
+
+#hero img {
+    width: 100%;
+    padding-top: 5rem;
+}
+
+#manifesto {
+    padding-top: 2rem;
+    background-color: black;
+    color: white;
+}
+
+#message {
+    width: 600px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+#message h2 {
+    padding: 0;
+}
+
+#mission {
+    text-decoration: line-through solid 0.76rem #cbf901;
+}
+
+#mission:before,
+#mission:after {
+    content: "\00a0\00a0";
+}
+
+.bold {
+    color: 	#6bc049;
+}
+
+#thirst-for-yours img {
+    width: 100%;
+}
+
+#videos {
+    font-family: sans-serif;
+    text-transform: none;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+#videos h5 {
+    font-family: 'Kanit', sans-serif;
+    font-style: italic;
+}
+
+#videos .bold {
+    color: #009639;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+/* FIX VIDEO WIDTH AND HEIGHT*/
+.vid {
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+}
+
+.vid iframe {
+    /*width: 100%;
+    height: 100%;*/
+    /*flex: 0 0 auto;
+    max-width: none;*/
+}
+
+#lemon-border {
+    margin-bottom: -50px;
+}
+
+#lemon-border img {
+    width: 100%;
+}
+
+#most-wanted {
+    background-color: #009639;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#most-wanted img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#most-wanted-buy {
+    text-align: center;
+    width: 20rem;
+    align-self: flex-end;
+    padding-right: 10%;
+}
+
+#buy {
+    display: flex;
+    justify-content: center;
+}
+
+#buy-button {
+    border: 2px solid white;
+    padding: 0.5rem;
+}
+
+#follow-us {
+    background-color: black;
+    color: white;
+}
+
+#follow-us-header {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+#follow-us-header:before, #follow-us-header:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 3px solid #00964c;
+    margin: auto;
+}
+
+#follow-us-header h2 {
+    padding: 0.5rem;
+}
+
+#follow-us-header figure {
+    display: flex;
+    align-items: center;
+}
+
+#follow-us-header img {
+    width: 20px;
+    height: 20px;
+    padding: 0.5rem;
+}
+
+#follow-us > figure {
+    display: flex;
+    justify-content: center;
+}
+
+#follow-us > figure > img {
+    width: 20px;
+    height: 20px;
+}
+
+#twitter-stories {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 1rem;
+}
+
+#twitter-stories figure {
+    padding: 0.1rem;
+}
+
+#twitter-stories img {
+    width: 100%;
+}
+
+#audio-media {
+    color: #3a7539;
+    text-transform: none;
+    display: flex;
+    justify-content: center;
+}
+
+#audio-media img {
+    width: 100%;
+}
+
+#sprite-way {
+    width: 40%;
+    padding: 2rem;
+    text-align: center;
+}
+
+#playlist {
+    width: 25%;
+    padding: 1rem 0.5rem;
+}
+
+#podcast {
+    width: 20%;
+    padding: 1rem 0.5rem;
+}
+
+footer {
+    background-color: #009639;
+    color: white;
+    font-size: 0.65rem;
+    padding-top: 3rem;
+}
+
+footer h5 {
+    line-height: 3rem;
+}
+
+#footer-social {
+    width: 15%;
+}
+
+
+#footer-social ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+
+#footer-social img {
+    width: 15px;
+}
+
+#footer-flavors ul, #buy-now ul {
+    list-style-type: none;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-counter {
+    background-color: #cbf901;
+    color: #336632;
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    width: 11rem;
+    border: white 2px solid;
+    border-radius: 1rem;
+}
+
+#footer-counter p {
+    padding: 0rem 0.25rem;
+}
+
+#footer-nav {
+    font-size: 1rem;
+    text-transform: none;
+    text-align: center;
+    padding: 1rem;
+}
+
+#footer-nav li {
+    font-size: 0.65rem;
+}
+
+#footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#footer-nav li {
+    font-size: 0.65rem;
+    padding: 0.25rem;
+    font-style: normal;
+}
