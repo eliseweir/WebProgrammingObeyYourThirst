@@ -72,28 +72,27 @@
     </section>
 
     <section id="videos">
-        <div class="vid">
+        <div class="vid-box">
             <h5>The Artist</h5>
             <p>
                 If you're a rapper, thirst for more than the charts. And if you're thirsty, drink an ice-cold
                 Sprite.<br>
                 <span class="bold">#ThirstForYours @KodieShane</span>
             </p>
-            <iframe src="https://www.youtube-nocookie.com/embed/l27ovCsMB3U" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+            <div class="vid">
+                <iframe src="https://www.youtube.com/embed/l27ovCsMB3U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
-        <div class="vid">
+        <div class="vid-box">
             <h5>The Empire</h5>
             <p>
                 If you're a designer, thirst for an intergalactic cover shoot. And if you're thirsty, drink an ice-cold
                 Sprite.<br>
                 <span class="bold">#ThirstForYours @seth.theplug</span>
             </p>
-            <iframe src="https://www.youtube.com/embed/e_igAAExkRw" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen>
-            </iframe>
+            <div class="vid">
+                <iframe src="https://www.youtube.com/embed/e_igAAExkRw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
     </section>
 
@@ -154,12 +153,40 @@
             </p>
         </div>
         <div id="playlist">
-            <iframe src="https://open.spotify.com/embed/playlist/0F9GnzKQchH4mZ56dysDJa" width="100%" height="380"
+            <iframe src="https://open.spotify.com/embed/playlist/0F9GnzKQchH4mZ56dysDJa" width="100%" 
                 frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <button id="playlist-button">
+                <img src="./images/spotify.png" alt="white spotify logo">
+                <p>Visit Our Playlist</p>
+            </button>
         </div>
         <div id="podcast">
-            <!--<iframe src="https://open.spotify.com/embed-podcast/show/0JPIX8qXStBBqSFg6vVTUS" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>-->
             <img src="https://i.scdn.co/image/0c4ff0826375029619070b294e670b0393e5f449" alt="">
+            <button id="podcast-button">
+                <img src="./images/podcast.png" alt="Apple podcast logo">
+                <p>Go To Podcast</p>
+            </button>
+        </div>
+    </section>
+
+    <section id="contact">
+        <figure id="contact-image">
+            <img src="./images/sprite-contact.jpg" alt="bottle of Sprite on black background with 'thirst for yours'">
+        </figure>
+        <div id="contact-form">
+            <h2>Contact Us</h2>
+            <form name="contact-us" action="https://airform.io/elise.weir@tech901.org" target="_blank" onsubmit="return validateForm()" method="post">
+                <label for="email">email:</label><br>
+                <input type="text" id="email" name="email" placeholder="email address">
+                <br>
+                <label for="message">message:</label><br>
+                <textarea name="message" placeholder="Message"></textarea>
+                <br>
+                <button>Send</button>
+            </form>
+            <div id="verify">
+                <p></p>
+            </div>
         </div>
     </section>
 
