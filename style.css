@@ -43,6 +43,7 @@ nav {
     position: fixed;
     width: 100%;
     padding: 1rem 0;
+    z-index: 1;
 }
 
 nav figure img {
@@ -82,7 +83,7 @@ nav li {
 
 #hero img {
     width: 100%;
-    padding-top: 4rem;
+    padding-top: 6rem;
 }
 
 #manifesto {
@@ -146,7 +147,6 @@ nav li {
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%;
-    z-index: -1;
 }
 
 .vid iframe {
@@ -455,5 +455,14 @@ footer h5 {
 @media only screen and (max-width: 600px) {
     html {
         font-size: 7px;
+    }
+    .responsive {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .soc-img {
+        width: 12px;
     }
 }
